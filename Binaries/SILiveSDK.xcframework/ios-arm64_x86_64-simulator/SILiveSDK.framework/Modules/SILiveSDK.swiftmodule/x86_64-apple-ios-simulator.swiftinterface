@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SILiveSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import AVFoundation
+import AVKit
+import Combine
+import CoreText
+import DeveloperToolsSupport
+import Foundation
+@_exported import SILiveSDK
+import Swift
+import SwiftUI
+import UIKit
+import _AVKit_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@_Concurrency.MainActor @preconcurrency public struct LiveStreamView : SwiftUICore.View {
+  public enum EventType {
+    case mobile
+    case camera
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public var rawValue: Swift.String {
+      get
+    }
+    public static func == (a: SILiveSDK.LiveStreamView.EventType, b: SILiveSDK.LiveStreamView.EventType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Environment {
+    case prod
+    case nonProd
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public var rawValue: Swift.String {
+      get
+    }
+    public static func == (a: SILiveSDK.LiveStreamView.Environment, b: SILiveSDK.LiveStreamView.Environment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public typealias LanguageCode = Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(eventType: SILiveSDK.LiveStreamView.EventType, environment: SILiveSDK.LiveStreamView.Environment, locale: SILiveSDK.LiveStreamView.LanguageCode = "en", onBackTapped: (() -> Swift.Void)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s9SILiveSDK14LiveStreamViewV4bodyQrvp", 0) __
+}
+public typealias EventType = SILiveSDK.LiveStreamView.EventType
+public typealias Environment = SILiveSDK.LiveStreamView.Environment
+extension SILiveSDK.LiveStreamView : Swift.Sendable {}
+extension SILiveSDK.LiveStreamView.EventType : Swift.Equatable {}
+extension SILiveSDK.LiveStreamView.EventType : Swift.Hashable {}
+extension SILiveSDK.LiveStreamView.Environment : Swift.Equatable {}
+extension SILiveSDK.LiveStreamView.Environment : Swift.Hashable {}
