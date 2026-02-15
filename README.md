@@ -34,8 +34,8 @@ Use `LiveStreamView` where you want the stream
 
 ```swift
 LiveStreamView(
-    eventType: .camera,      // or .mobile
-    environment: .prod,      // or .nonProd
+    environment: .prod,
+    eventType: .camera,
     locale: "en",
     onBackTapped: {
         // Dismiss or pop when the user taps the overlay back button
@@ -43,6 +43,14 @@ LiveStreamView(
     }
 )
 ```
+environment is an enum with two possible values: `.prod` or `.nonProd`
+eventType is an enum with two possible values: `.camera` or `.mobile`
+locale is a string which supports two languages: `"en"` for English or `"it"` for Italian
+
+All 3 parameters `environment`, `eventType` and `locale` are required.
+
+**Please Note:**
+locale is only used for Pre Live & Post Live scenarios and is not supported when a stream is Live.
 
 ### 3. Example with fullScreen Cover
 ```swift
