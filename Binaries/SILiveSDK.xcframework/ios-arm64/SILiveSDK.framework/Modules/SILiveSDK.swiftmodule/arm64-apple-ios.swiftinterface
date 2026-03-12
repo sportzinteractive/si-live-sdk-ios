@@ -21,7 +21,7 @@ import os
 @_Concurrency.MainActor @preconcurrency public struct LiveStreamView : SwiftUICore.View {
   public enum EventType {
     case mobile
-    case camera
+    case broadcast
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -35,8 +35,9 @@ import os
     }
   }
   public enum Environment {
+    case dev
+    case preview
     case prod
-    case nonProd
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif

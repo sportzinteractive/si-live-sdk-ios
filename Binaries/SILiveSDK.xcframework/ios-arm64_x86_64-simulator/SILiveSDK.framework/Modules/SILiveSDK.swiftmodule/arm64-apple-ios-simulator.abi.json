@@ -680,8 +680,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "camera",
-            "printedName": "camera",
+            "name": "broadcast",
+            "printedName": "broadcast",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -713,8 +713,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SILiveSDK22LiveStreamRemoteConfigV6cameraSDySSAA0cddF0VGSgvp",
-            "mangledName": "$s9SILiveSDK22LiveStreamRemoteConfigV6cameraSDySSAA0cddF0VGSgvp",
+            "usr": "s:9SILiveSDK22LiveStreamRemoteConfigV9broadcastSDySSAA0cddF0VGSgvp",
+            "mangledName": "$s9SILiveSDK22LiveStreamRemoteConfigV9broadcastSDySSAA0cddF0VGSgvp",
             "moduleName": "SILiveSDK",
             "declAttributes": [
               "HasStorage"
@@ -758,8 +758,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SILiveSDK22LiveStreamRemoteConfigV6cameraSDySSAA0cddF0VGSgvg",
-                "mangledName": "$s9SILiveSDK22LiveStreamRemoteConfigV6cameraSDySSAA0cddF0VGSgvg",
+                "usr": "s:9SILiveSDK22LiveStreamRemoteConfigV9broadcastSDySSAA0cddF0VGSgvg",
+                "mangledName": "$s9SILiveSDK22LiveStreamRemoteConfigV9broadcastSDySSAA0cddF0VGSgvg",
                 "moduleName": "SILiveSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -863,7 +863,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(camera:mobile:)",
+            "printedName": "init(broadcast:mobile:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -929,8 +929,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9SILiveSDK22LiveStreamRemoteConfigV6camera6mobileACSDySSAA0cddF0VGSg_AItcfc",
-            "mangledName": "$s9SILiveSDK22LiveStreamRemoteConfigV6camera6mobileACSDySSAA0cddF0VGSg_AItcfc",
+            "usr": "s:9SILiveSDK22LiveStreamRemoteConfigV9broadcast6mobileACSDySSAA0cddF0VGSg_AItcfc",
+            "mangledName": "$s9SILiveSDK22LiveStreamRemoteConfigV9broadcast6mobileACSDySSAA0cddF0VGSg_AItcfc",
             "moduleName": "SILiveSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -8287,8 +8287,8 @@
               },
               {
                 "kind": "Var",
-                "name": "camera",
-                "printedName": "camera",
+                "name": "broadcast",
+                "printedName": "broadcast",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -8318,8 +8318,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9SILiveSDK14LiveStreamViewV9EventTypeO6camerayA2EmF",
-                "mangledName": "$s9SILiveSDK14LiveStreamViewV9EventTypeO6camerayA2EmF",
+                "usr": "s:9SILiveSDK14LiveStreamViewV9EventTypeO9broadcastyA2EmF",
+                "mangledName": "$s9SILiveSDK14LiveStreamViewV9EventTypeO9broadcastyA2EmF",
                 "moduleName": "SILiveSDK"
               },
               {
@@ -8540,6 +8540,80 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "dev",
+                "printedName": "dev",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SILiveSDK.LiveStreamView.Environment.Type) -> SILiveSDK.LiveStreamView.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "SILiveSDK.LiveStreamView.Environment",
+                        "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SILiveSDK.LiveStreamView.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "SILiveSDK.LiveStreamView.Environment",
+                            "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO3devyA2EmF",
+                "mangledName": "$s9SILiveSDK14LiveStreamViewV11EnvironmentO3devyA2EmF",
+                "moduleName": "SILiveSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "preview",
+                "printedName": "preview",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SILiveSDK.LiveStreamView.Environment.Type) -> SILiveSDK.LiveStreamView.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "SILiveSDK.LiveStreamView.Environment",
+                        "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SILiveSDK.LiveStreamView.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "SILiveSDK.LiveStreamView.Environment",
+                            "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO7previewyA2EmF",
+                "mangledName": "$s9SILiveSDK14LiveStreamViewV11EnvironmentO7previewyA2EmF",
+                "moduleName": "SILiveSDK"
+              },
+              {
+                "kind": "Var",
                 "name": "prod",
                 "printedName": "prod",
                 "children": [
@@ -8573,43 +8647,6 @@
                 "declKind": "EnumElement",
                 "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO4prodyA2EmF",
                 "mangledName": "$s9SILiveSDK14LiveStreamViewV11EnvironmentO4prodyA2EmF",
-                "moduleName": "SILiveSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "nonProd",
-                "printedName": "nonProd",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(SILiveSDK.LiveStreamView.Environment.Type) -> SILiveSDK.LiveStreamView.Environment",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "SILiveSDK.LiveStreamView.Environment",
-                        "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "SILiveSDK.LiveStreamView.Environment.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Environment",
-                            "printedName": "SILiveSDK.LiveStreamView.Environment",
-                            "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9SILiveSDK14LiveStreamViewV11EnvironmentO7nonProdyA2EmF",
-                "mangledName": "$s9SILiveSDK14LiveStreamViewV11EnvironmentO7nonProdyA2EmF",
                 "moduleName": "SILiveSDK"
               },
               {
@@ -11827,8 +11864,8 @@
               },
               {
                 "kind": "Var",
-                "name": "camera",
-                "printedName": "camera",
+                "name": "broadcast",
+                "printedName": "broadcast",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -11858,8 +11895,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9SILiveSDK010LiveStreamB0C9EventTypeO6camerayA2EmF",
-                "mangledName": "$s9SILiveSDK010LiveStreamB0C9EventTypeO6camerayA2EmF",
+                "usr": "s:9SILiveSDK010LiveStreamB0C9EventTypeO9broadcastyA2EmF",
+                "mangledName": "$s9SILiveSDK010LiveStreamB0C9EventTypeO9broadcastyA2EmF",
                 "moduleName": "SILiveSDK",
                 "fixedbinaryorder": 1
               },
@@ -12019,6 +12056,82 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "dev",
+                "printedName": "dev",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SILiveSDK.LiveStreamSDK.Environment.Type) -> SILiveSDK.LiveStreamSDK.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "SILiveSDK.LiveStreamSDK.Environment",
+                        "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SILiveSDK.LiveStreamSDK.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "SILiveSDK.LiveStreamSDK.Environment",
+                            "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO3devyA2EmF",
+                "mangledName": "$s9SILiveSDK010LiveStreamB0C11EnvironmentO3devyA2EmF",
+                "moduleName": "SILiveSDK",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "preview",
+                "printedName": "preview",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SILiveSDK.LiveStreamSDK.Environment.Type) -> SILiveSDK.LiveStreamSDK.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "SILiveSDK.LiveStreamSDK.Environment",
+                        "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SILiveSDK.LiveStreamSDK.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "SILiveSDK.LiveStreamSDK.Environment",
+                            "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO7previewyA2EmF",
+                "mangledName": "$s9SILiveSDK010LiveStreamB0C11EnvironmentO7previewyA2EmF",
+                "moduleName": "SILiveSDK",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
                 "name": "prod",
                 "printedName": "prod",
                 "children": [
@@ -12053,45 +12166,7 @@
                 "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO4prodyA2EmF",
                 "mangledName": "$s9SILiveSDK010LiveStreamB0C11EnvironmentO4prodyA2EmF",
                 "moduleName": "SILiveSDK",
-                "fixedbinaryorder": 0
-              },
-              {
-                "kind": "Var",
-                "name": "nonProd",
-                "printedName": "nonProd",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(SILiveSDK.LiveStreamSDK.Environment.Type) -> SILiveSDK.LiveStreamSDK.Environment",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "SILiveSDK.LiveStreamSDK.Environment",
-                        "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "SILiveSDK.LiveStreamSDK.Environment.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Environment",
-                            "printedName": "SILiveSDK.LiveStreamSDK.Environment",
-                            "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO7nonProdyA2EmF",
-                "mangledName": "$s9SILiveSDK010LiveStreamB0C11EnvironmentO7nonProdyA2EmF",
-                "moduleName": "SILiveSDK",
-                "fixedbinaryorder": 1
+                "fixedbinaryorder": 2
               },
               {
                 "kind": "Constructor",
@@ -14542,154 +14617,154 @@
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1678,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2445,
+      "offset": 2560,
       "length": 3,
       "value": "237"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2449,
+      "offset": 2564,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2461,
+      "offset": 2576,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2464,
+      "offset": 2579,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2475,
+      "offset": 2590,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2478,
+      "offset": 2593,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3558,
+      "offset": 3673,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3576,
+      "offset": 3691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3622,
+      "offset": 3737,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3625,
+      "offset": 3740,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3637,
+      "offset": 3752,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3640,
+      "offset": 3755,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3651,
+      "offset": 3766,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3654,
+      "offset": 3769,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3867,
+      "offset": 3982,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3937,
+      "offset": 4052,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3940,
+      "offset": 4055,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3952,
+      "offset": 4067,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3955,
+      "offset": 4070,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3966,
+      "offset": 4081,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3969,
+      "offset": 4084,
       "length": 3,
       "value": "255"
     },
@@ -14962,23 +15037,30 @@
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
       "kind": "StringLiteral",
-      "offset": 350,
-      "length": 8,
-      "value": "\"CAMERA\""
+      "offset": 353,
+      "length": 11,
+      "value": "\"BROADCAST\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 426,
+      "length": 5,
+      "value": "\"DEV\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 9,
+      "value": "\"PREVIEW\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
       "length": 6,
       "value": "\"PROD\""
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 10,
-      "value": "\"NON-PROD\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Library\/Developer\/Xcode\/DerivedData\/LiveStreamBrightCove-cdpssnzqnvdjozeynwkgwjkjglas\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LiveStreamBrightCove\/IntermediateBuildFilesPath\/LiveStreamBrightCove.build\/Debug-iphonesimulator\/SILiveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
