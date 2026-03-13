@@ -9870,573 +9870,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SILiveSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ActivityIndicatorView",
-        "printedName": "ActivityIndicatorView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "indicatorColor",
-            "printedName": "indicatorColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK21ActivityIndicatorViewV14indicatorColor7SwiftUI0G0Vvp",
-            "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV14indicatorColor7SwiftUI0G0Vvp",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9SILiveSDK21ActivityIndicatorViewV14indicatorColor7SwiftUI0G0Vvg",
-                "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV14indicatorColor7SwiftUI0G0Vvg",
-                "moduleName": "SILiveSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "backgroundColor",
-            "printedName": "backgroundColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK21ActivityIndicatorViewV15backgroundColor7SwiftUI0G0Vvp",
-            "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV15backgroundColor7SwiftUI0G0Vvp",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9SILiveSDK21ActivityIndicatorViewV15backgroundColor7SwiftUI0G0Vvg",
-                "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV15backgroundColor7SwiftUI0G0Vvg",
-                "moduleName": "SILiveSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(indicatorColor:backgroundColor:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ActivityIndicatorView",
-                "printedName": "SILiveSDK.ActivityIndicatorView",
-                "usr": "s:9SILiveSDK21ActivityIndicatorViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9SILiveSDK21ActivityIndicatorViewV14indicatorColor010backgroundG0AC7SwiftUI0G0V_AHtcfc",
-            "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV14indicatorColor010backgroundG0AC7SwiftUI0G0V_AHtcfc",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK21ActivityIndicatorViewV4bodyQrvp",
-            "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV4bodyQrvp",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9SILiveSDK21ActivityIndicatorViewV4bodyQrvg",
-                "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV4bodyQrvg",
-                "moduleName": "SILiveSDK",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:9SILiveSDK21ActivityIndicatorViewV",
-        "mangledName": "$s9SILiveSDK21ActivityIndicatorViewV",
-        "moduleName": "SILiveSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ActivityIndicatorOverlay",
-        "printedName": "ActivityIndicatorOverlay",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isLoading",
-            "printedName": "isLoading",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV9isLoadingSbvp",
-            "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV9isLoadingSbvp",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV9isLoadingSbvg",
-                "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV9isLoadingSbvg",
-                "moduleName": "SILiveSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "indicatorColor",
-            "printedName": "indicatorColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV14indicatorColor7SwiftUI0G0Vvp",
-            "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV14indicatorColor7SwiftUI0G0Vvp",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV14indicatorColor7SwiftUI0G0Vvg",
-                "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV14indicatorColor7SwiftUI0G0Vvg",
-                "moduleName": "SILiveSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "backgroundColor",
-            "printedName": "backgroundColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV15backgroundColor7SwiftUI0G0Vvp",
-            "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV15backgroundColor7SwiftUI0G0Vvp",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 2,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV15backgroundColor7SwiftUI0G0Vvg",
-                "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV15backgroundColor7SwiftUI0G0Vvg",
-                "moduleName": "SILiveSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(isLoading:indicatorColor:backgroundColor:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ActivityIndicatorOverlay",
-                "printedName": "SILiveSDK.ActivityIndicatorOverlay",
-                "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV9isLoading14indicatorColor010backgroundI0ACSb_7SwiftUI0I0VAItcfc",
-            "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV9isLoading14indicatorColor010backgroundI0ACSb_7SwiftUI0I0VAItcfc",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "body",
-            "printedName": "body(content:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "_ViewModifier_Content",
-                "printedName": "SwiftUI._ViewModifier_Content<SILiveSDK.ActivityIndicatorOverlay>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ActivityIndicatorOverlay",
-                    "printedName": "SILiveSDK.ActivityIndicatorOverlay",
-                    "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV"
-                  }
-                ],
-                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
-            "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
-            "moduleName": "SILiveSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:9SILiveSDK24ActivityIndicatorOverlayV",
-        "mangledName": "$s9SILiveSDK24ActivityIndicatorOverlayV",
-        "moduleName": "SILiveSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ViewModifier",
-            "printedName": "ViewModifier",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI12ViewModifierP",
-            "mangledName": "$s7SwiftUI12ViewModifierP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13690,106 +13123,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "View",
-        "printedName": "View",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "activityIndicator",
-            "printedName": "activityIndicator(isLoading:indicatorColor:backgroundColor:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP9SILiveSDKE17activityIndicator9isLoading14indicatorColor010backgroundK0QrSb_AA0K0VAJtF",
-            "mangledName": "$s7SwiftUI4ViewP9SILiveSDKE17activityIndicator9isLoading14indicatorColor010backgroundK0QrSb_AA0K0VAJtF",
-            "moduleName": "SILiveSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:7SwiftUI4ViewP",
-        "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUICore",
-        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
-        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Preconcurrency",
-          "TypeEraser",
-          "TypeEraser",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Custom"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
         "children": [
@@ -14624,273 +13957,154 @@
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2560,
+      "offset": 2626,
       "length": 3,
       "value": "237"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2564,
+      "offset": 2630,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2576,
+      "offset": 2642,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2579,
+      "offset": 2645,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2590,
+      "offset": 2656,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2593,
+      "offset": 2659,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2698,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3673,
+      "offset": 3724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3691,
+      "offset": 3742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3737,
+      "offset": 3788,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3740,
+      "offset": 3791,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3752,
+      "offset": 3803,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3755,
+      "offset": 3806,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3766,
+      "offset": 3817,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3769,
+      "offset": 3820,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3982,
+      "offset": 4033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4052,
+      "offset": 4103,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4055,
+      "offset": 4106,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4067,
+      "offset": 4118,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4070,
+      "offset": 4121,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4081,
+      "offset": 4132,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4084,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 401,
-      "length": 3,
-      "value": "237"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 405,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 417,
-      "length": 2,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 431,
-      "length": 2,
-      "value": "36"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 434,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1169,
-      "length": 3,
-      "value": "237"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1173,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1185,
-      "length": 2,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1188,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1199,
-      "length": 2,
-      "value": "36"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1202,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1942,
-      "length": 3,
-      "value": "237"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1946,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1958,
-      "length": 2,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1961,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1972,
-      "length": 2,
-      "value": "36"
-    },
-    {
-      "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1975,
+      "offset": 4135,
       "length": 3,
       "value": "255"
     },
@@ -14939,91 +14153,91 @@
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
-      "length": 21,
-      "value": "\"SDK not initialized\""
+      "offset": 2062,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1253,
-      "length": 17,
-      "value": "\"Video not found\""
+      "offset": 2100,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 32,
-      "value": "\"Pre-live content not available\""
+      "offset": 2151,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
-      "length": 36,
-      "value": "\"Pre-live content URL not available\""
+      "offset": 2205,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1489,
-      "length": 33,
-      "value": "\"Post-live content not available\""
+      "offset": 2257,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1575,
-      "length": 37,
-      "value": "\"Post-live content URL not available\""
+      "offset": 2312,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
-      "length": 33,
-      "value": "\"Unsupported pre-live media type\""
+      "offset": 2364,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1746,
-      "length": 34,
-      "value": "\"Unsupported post-live media type\""
+      "offset": 2417,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1814,
-      "length": 29,
-      "value": "\"This live stream has ended.\""
+      "offset": 2453,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1884,
-      "length": 22,
-      "value": "\"Unknown stream state\""
+      "offset": 2496,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
-      "length": 17,
-      "value": "\"Playback failed\""
+      "offset": 2535,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2659,
       "length": 23,
       "value": "\"com.si.livestream.sdk\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 2140,
+      "offset": 2717,
       "length": 15,
       "value": "\"LiveStreamSDK\""
     },
