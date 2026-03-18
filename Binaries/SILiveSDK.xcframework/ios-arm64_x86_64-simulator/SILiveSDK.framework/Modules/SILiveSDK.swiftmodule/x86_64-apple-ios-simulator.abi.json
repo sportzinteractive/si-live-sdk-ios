@@ -3556,32 +3556,6 @@
             "hasStorage": true
           },
           {
-            "kind": "Var",
-            "name": "baseConfigURL",
-            "printedName": "baseConfigURL",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9SILiveSDK24LiveStreamNetworkManagerC13baseConfigURL33_91BC9ED701DCC76EA05EC53E3BD2B8BBLLSSvp",
-            "mangledName": "$s9SILiveSDK24LiveStreamNetworkManagerC13baseConfigURL33_91BC9ED701DCC76EA05EC53E3BD2B8BBLLSSvp",
-            "moduleName": "SILiveSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(session:)",
@@ -3612,12 +3586,18 @@
           {
             "kind": "Function",
             "name": "fetchRemoteConfig",
-            "printedName": "fetchRemoteConfig(completion:)",
+            "printedName": "fetchRemoteConfig(environment:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "SILiveSDK.LiveStreamSDK.Environment",
+                "usr": "s:9SILiveSDK010LiveStreamB0C11EnvironmentO"
               },
               {
                 "kind": "TypeFunc",
@@ -3653,8 +3633,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SILiveSDK24LiveStreamNetworkManagerC17fetchRemoteConfig10completionyys6ResultOyAA0cdhI0Vs5Error_pGc_tF",
-            "mangledName": "$s9SILiveSDK24LiveStreamNetworkManagerC17fetchRemoteConfig10completionyys6ResultOyAA0cdhI0Vs5Error_pGc_tF",
+            "usr": "s:9SILiveSDK24LiveStreamNetworkManagerC17fetchRemoteConfig11environment10completionyAA0cdB0C11EnvironmentO_ys6ResultOyAA0cdhI0Vs5Error_pGctF",
+            "mangledName": "$s9SILiveSDK24LiveStreamNetworkManagerC17fetchRemoteConfig11environment10completionyAA0cdB0C11EnvironmentO_ys6ResultOyAA0cdhI0Vs5Error_pGctF",
             "moduleName": "SILiveSDK",
             "declAttributes": [
               "Final",
@@ -14006,105 +13986,105 @@
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3724,
+      "offset": 3743,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3742,
+      "offset": 3761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3788,
+      "offset": 3807,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3791,
+      "offset": 3810,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3803,
+      "offset": 3822,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3806,
+      "offset": 3825,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3817,
+      "offset": 3836,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3820,
+      "offset": 3839,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4033,
+      "offset": 4052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4103,
+      "offset": 4122,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4106,
+      "offset": 4125,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4118,
+      "offset": 4137,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4121,
+      "offset": 4140,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4132,
+      "offset": 4151,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Documents\/SI Projects\/SILiveSDK-Codebase-Official\/LiveStreamFramework\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4135,
+      "offset": 4154,
       "length": 3,
       "value": "255"
     },
